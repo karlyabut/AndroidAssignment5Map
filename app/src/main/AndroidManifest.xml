@@ -39,6 +39,26 @@
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" >
         </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".ItalianActivity"
+            android:label="@string/title_activity_italian" >
+        </activity>
+        <activity
+            android:name=".ChineseActivity"
+            android:label="@string/title_activity_chinese" >
+        </activity>
+        <activity
+            android:name=".PhilippineActivity"
+            android:label="@string/title_activity_philippine" >
+        </activity>
+        <activity
+            android:name=".GreekActivity"
+            android:label="@string/title_activity_greek" >
+        </activity>
     </application>
 
 </manifest>
