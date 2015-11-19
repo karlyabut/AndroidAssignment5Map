@@ -5,6 +5,8 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_menu">GreekActivity</string>
+    <color name="backgroundColor">#7e0001</color>
+    <color name="fontColor">#ffffff</color>
 
     <string-array name="italianList">
         <item>Buca</item>
@@ -21,7 +23,7 @@
         <item>Lai Wah Heen</item>
         <item>Lee Garden</item>
         <item>Lucky Chinese</item>
-        <item>Swaton</item>
+        <item>Swatow</item>
     </string-array>
     <string-array name="philippineList">
         <item>Jesse Jr.</item>

@@ -16,14 +16,14 @@ public class MapsActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
-        setUpMapIfNeeded();
+        //setUpMapIfNeeded();
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        setUpMapIfNeeded();
-    }
+    //@Override
+    //protected void onResume() {
+    //    super.onResume();
+    //    setUpMapIfNeeded();
+    //}
 
     /**
      * Sets up the map if it is possible to do so (i.e., the Google Play services APK is correctly
@@ -40,7 +40,7 @@ public class MapsActivity extends FragmentActivity {
      * stopped or paused), {@link #onCreate(Bundle)} may not be called again so we should call this
      * method in {@link #onResume()} to guarantee that it will be called.
      */
-    private void setUpMapIfNeeded() {
+   /* private void setUpMapIfNeeded() {
         // Do a null check to confirm that we have not already instantiated the map.
         if (mMap == null) {
             // Try to obtain the map from the SupportMapFragment.
@@ -51,7 +51,7 @@ public class MapsActivity extends FragmentActivity {
                 setUpMap();
             }
         }
-    }
+    }*/
 
     /**
      * This is where we can add markers or lines, add listeners or move the camera. In this case, we
@@ -59,7 +59,7 @@ public class MapsActivity extends FragmentActivity {
      * <p>
      * This should only be called once and when we are sure that {@link #mMap} is not null.
      */
-    private void setUpMap() {
+   /* private void setUpMap() {
         mMap.addMarker(new MarkerOptions().position(new LatLng(0, 0)).title("Marker"));
-    }
+    }*/
 }

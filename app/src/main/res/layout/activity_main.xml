@@ -1,40 +1,57 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+
     <RadioGroup
         android:id="@+id/RadioGroup"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
         <RadioButton
             android:id="@+id/RadioButton1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Italian"
+            android:textColor="@color/fontColor"
             android:textSize="10pt" />
         <RadioButton
             android:id="@+id/RadioButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Greek"
+            android:textColor="@color/fontColor"
             android:textSize="10pt"/>
         <RadioButton
             android:id="@+id/RadioButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Chinese"
+            android:textColor="@color/fontColor"
             android:textSize="10pt"/>
         <RadioButton
             android:id="@+id/RadioButton4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Philippine"
+            android:textColor="@color/fontColor"
             android:textSize="10pt"/>
     </RadioGroup>
-</LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/appicon"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
